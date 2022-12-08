@@ -1,0 +1,13 @@
+type User {
+  id: ID!
+  name: String!
+  email: String!
+}
+
+type Query {
+  hello: String!
+}
+
+type Mutation {
+  world: String!
+}
