@@ -10,12 +10,12 @@
   },
   "scripts": {
     "generate": "graphql-codegen --config codegen.yml",
-    "lint": "npx tsc --noEmit && eslint . --ext .ts,.js",
+    "lint": "tsc --noEmit && eslint . --ext .ts,.js",
     "prepare": "npm run generate",
-    "start": "npx vercel dev",
+    "start": "vercel dev",
     "dev": "npm run start",
-    "deploy:dev": "npx vercel",
-    "deploy:prod": "npx vercel --prod"
+    "deploy:dev": "vercel",
+    "deploy:prod": "vercel --prod"
   },
   "dependencies": {
     "@graphql-tools/graphql-file-loader": "^7.5.13",
