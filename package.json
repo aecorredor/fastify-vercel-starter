@@ -1,5 +1,5 @@
 {
-  "name": "@stoalabs/fastify-vercel-starter",
+  "name": "fastify-vercel-starter",
   "version": "0.0.0",
   "private": true,
   "author": "Stoa Labs LLC",
