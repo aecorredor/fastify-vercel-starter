@@ -2,8 +2,8 @@
   "name": "fastify-vercel-starter",
   "version": "0.0.0",
   "private": true,
-  "author": "Stoa Labs LLC",
-  "license": "UNLICENSED",
+  "author": "Alejandro Corredor",
+  "license": "MIT",
   "repository": {},
   "engines": {
     "node": "18.x"
